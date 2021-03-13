@@ -1,3 +1,4 @@
-var milkProduction = function totalProduction() {
+var milkProduction = function totalProduction
+() {
     
 }
