@@ -12,22 +12,5 @@ function totalProduction() {
     var explanation = document.getElementById("explanation");
     if(a.shade === 0 || b.shade === 0 || c.shade === 0 || d.shade === 0 ) {
       //check whether the user has typed something
-      display.innerHTML = "<p>Please <span class='fill'>FILL</span> all the fields</p>" 
-    } else {
-      //convert the strings to numbers
-      a = parseFloat(a);
-      b = parseFloat(b);
-      c = parseFloat(c);
-      d = parseFloat(d)
-      //track the triangle
-      track(a,b,c,d);
-    }
-  }
-  function track(a,b,c,d) {
-    if (a)
-    
-    }
-  }
-  function totalProduction() {
-    location.reload();
-  }
+      display.innerHTML = "<p>Please <span class='fill'>FILL</span> all the fields</p>" }
+      console.log(display);
