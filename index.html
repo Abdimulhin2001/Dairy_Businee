@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="index.css">
-    <script> src="js/index.js" </script>
-    <title>Dairy Business</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <title>title</title>
 </head>
 <body>
-    <div id="table">
-        <table>
-            <thead>
-                <th></th>
-            </thead>
-        </table>
-
-    
+  <div class="product">
+    <p>shades</p>
+    <div class="input-field">
+      <label for="shadeA">shade A</label>
+      <input class="milk" type="text" id="num1" name="num1">
+    </div>
+    <div class="input-field">
+       <label for="shadeB">shade B</label>
+        <input class="milk" type="text" id="shadeB" name="shadeB">
+    </div>
+    <div class="input-field">
+      <label for="shadeC">shade C</label>
+      <input class="milk" type="text" id="shadeC" name="shadeC">
+    </div>
+    <div class="input-field">
+        <label for="shadeD">Side D</label>
+        <input class="milk" type="text" id="shadeD" name="shadeD">
+      </div>
+    <input class="button" type="button" value="Find Out" onclick="totalProduction()">
+    <input class="button" type="button" value="Reset" onclick="reset()">
+    <p id="display"></p>
+  </div>
+  <div id="footer">
+  </div>
 </body>
+<script src="js/script.js"></script>
 </html>
