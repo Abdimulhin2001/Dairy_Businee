@@ -18,6 +18,11 @@ function totalProduction() {
       d = parseFloat(d);
     }
 }
-incomeOverTime(selling_price, time);
-var income = [];
-income.push(document.getElementById)
+function totalIncome(params) {
+  var totalIncome = [];
+  totalIncome.push(docoment.getElementById("in1"))
+  totalIncome.push(docoment.getElementById("in2"))
+
+   
+}
+
