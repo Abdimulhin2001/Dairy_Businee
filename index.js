@@ -1,4 +1,0 @@
-var milkProduction = function totalProduction
-() {
-    
-}
