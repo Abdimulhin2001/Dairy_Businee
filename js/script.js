@@ -9,8 +9,8 @@ function totalProduction() {
     var [a,b,c,d] = shades;
     var display = document.getElementById("display");
     var explanation = document.getElementById("explanation");
-    if(a.value + b.value + c.value + d.value === 510 + 308 + 486 + 572) {
-      display.innerHTML = "<p>The total PRODUCTION <span class='fill'> 1876 litres</span> per day</p>" 
+  if(a.milk === 510 || b.milk === 308 || c.milk === 486 || d.milk === 572 ) {
+    display.innerHTML = "<p>Please <span class='fill'>FILL</span> all the fields</p>"  
     } else {
       a = parseFloat(a);
       b = parseFloat(b);
@@ -18,3 +18,6 @@ function totalProduction() {
       d = parseFloat(d);
     }
 }
+incomeOverTime(selling_price, time);
+var income = [];
+income.push(document.getElementById)
