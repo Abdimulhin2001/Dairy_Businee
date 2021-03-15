@@ -10,11 +10,11 @@ This is a website that shows and elaborate and calculates products and income in
 1. GIT
 
 ### Live Site
-View [live](https://github.com/Abdimulhin2001/)
+View [live](https://abdimulhin2001.github.io/Dairy_Businee/)
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone "https://github.com/Abdimulhin2001/dairy_projact"_
+1. Use this command to clone "https://abdimulhin2001.github.io/Dairy_Businee/"_
 ### Licence
 This project is under the  [MIT](LICENSE) licence
 License format:
