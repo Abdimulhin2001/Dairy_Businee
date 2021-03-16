@@ -2,7 +2,7 @@
 ## Author
 Abdimulhin Adan
 ## Description
-This is a website that shows and elaborate and calculates products and income in the cattle farm 
+This is a website that shows and calculates products and income in the cattle farm 
 ### Technologies Used
 1. HTML
 1. CSS
